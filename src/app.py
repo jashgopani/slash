@@ -20,14 +20,11 @@ def product_search(new_product="", sort=None, currency=None, num=None):
     return jsonify(data)
 
 
-@app.route("/searchdebug", methods=["POST", "GET"])
-def product_searchdebug(new_product="", sort=None, currency=None, num=None):
-    print('search route triggered')
+@app.route("/searchdebug", methods=["GET"])
+def product_searchdebug(new_product=""):
+    print('searchdebug route triggered')
     product = request.args.get("product_name")
-    if product is None:
-        product = new_product
-    data = driver(product, currency, num, 0, False, None, True, sort)
-    return jsonify(data)
+    return jsonify(["you searched for - ",str(product)]);
 
 
 @app.route("/filter", methods=["POST", "GET"])
