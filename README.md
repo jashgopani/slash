@@ -91,6 +91,7 @@ python -m flask run
 4. A smoother dropdown added to the UI
 5. New layout where there is no table. Instead, it is a grid layout.
 6. Responsive for any screen size, including smartphones.
+7. PWA support to make the app cross-platform
 
 <p align="center"><img width="700" src="./assets/Slash_UI.png"></p>
 
@@ -134,27 +135,27 @@ There is a grid of items that shows all the items including name, ratings, price
 
 <p align="center"><img width="700" src="./assets/SlashAnimation.gif"></p>
 
-- Creating ordering and payment functionality for customers to directly order from command line
-- Take coupons or promo codes into consideration
-- Provide parameters like in-store availability or inventory
-- Increase the number of filters.
-- Add login for the web version.
-- Host on a docker container
+- Improve UX through UI enhancements like fixing bugs, micro-interactions, more filter and sorting options, dedicated product detail page
+- Add price history tracking and notification and alerts feature
+- Add more relevant information like coupons or promo codes from scraped results
+- Upgrade PWA capabilities to give a more native like UX
 
 ## :thought_balloon: Use Case
 
 - **_Students_**: Students coming to university are generally on a budget and time constraint and generally spend hours wasting time searching for products on Websites. Slash is the perfect tool for these students that slashes all the unnecessary details on a website and helps them get prices for a product across multiple websites. Make the most of this tool in the upcoming Black Friday Sale.
 - **_Data Analysts_**: Finding data for any project is a tedious job for a data analyst, and the datasets found might not be the most recent one. Using slash, they can create their own dataset in real time and format it as per their needs so that they can focus on what is actually important. On top of this, finding data can be easily automated to suit the data analysts needs.
 
-## :page_facing_up: Why
+## :page_facing_up: Why Contribute to this project ?
 
-- In a market where we are spoilt for choices, we often look for the best deals.
-- The ubiquity of internet access has leveled the retail playing field, making it easy for individuals and businesses to sell products without geographic limitation. In 2020, U.S. e-commerce sales, receiving a boost due to the COVID-19 pandemic, grew 44% and represented more than 21% of total retail sales, according to e-commerce information source Internet Retailer.
-- The growth of e-commerce has not only changed the way customers shop, but also their expectations of how brands approach customer service, personalize communications, and provide customers choices.
-- E-commerce market has prompted cutthroat competition amongst dealers, which is discernable through the price patterns for products of major market players. Price cuts are somewhat of a norm now and getting the best deal for your money can sometimes be a hassle (even while online shopping).
-- This is what Slash aims to reduce by giving you an easy-to-use, all-in-one-place solution for finding the best deals for your products that major market dealers have to offer!
-- Slash in its current form is for people who have some understanding of Python and are comfortable with using the command line interface to interact with systems.
-- Future updates aim to encompass a wide variety of users irrespective of their computer knowledge and background.
+- Revolutionize Shopping: Be a part of a project that's changing the way people shop online, making it more efficient and enjoyable.
+
+- Tech-Powered Bargain Hunting: Contribute your tech skills to empower users with the ability to find the best deals across e-commerce platforms effortlessly.
+
+- Elevate User Experience: Help create a tool that not only saves time but enhances the shopping experience through intuitive design and micro-interactions.
+
+- Data Analyst's Dream: Assist data analysts by collecting and providing real-time data collection and formatting tools, simplifying their work and making it more efficient.
+
+- Community Impact: Your contributions will directly impact students and budget-conscious shoppers, helping them save money and make informed purchase decisions, which is particularly impactful during sales events like Black Friday.
 
 # :bulb: Motivation
 
