@@ -16,8 +16,8 @@ def product_search(new_product="", sort=None, currency=None, num=None):
     print('search route triggered for: '+str(product))
     if product is None:
         product = new_product
-    data = driver(product, currency, num, 0, False, None, True, sort)
-    return jsonify(data)
+    # data = driver(product, currency, num, 0, False, None, True, sort)
+    return jsonify([product])
 
 @app.route("/searchdebug", methods=["GET"])
 def product_searchdebug(new_product=""):
