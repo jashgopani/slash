@@ -12,6 +12,17 @@ def landingpage():
 
 @app.route("/search", methods=["POST", "GET"])
 def product_search(new_product="", sort=None, currency=None, num=None):
+    print('search route triggered')
+    product = request.args.get("product_name")
+    if product is None:
+        product = new_product
+    data = driver(product, currency, num, 0, False, None, True, sort)
+    return jsonify(data)
+
+
+@app.route("/searchdebug", methods=["POST", "GET"])
+def product_searchdebug(new_product="", sort=None, currency=None, num=None):
+    print('search route triggered')
     product = request.args.get("product_name")
     if product is None:
         product = new_product

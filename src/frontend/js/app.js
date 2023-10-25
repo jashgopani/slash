@@ -1,5 +1,6 @@
 const { useState, useReducer, useRef } = React;
 const SERVER_URL = window.origin;
+console.log({ SERVER_URL });
 
 const reducer = (state, { type, data }) => {
 	switch (type) {
